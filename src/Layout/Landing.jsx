@@ -78,7 +78,7 @@ function Landing(props) {
     return(
         <div className={sContainer} id='landing' ref={props.landingRef}>
             <div className={sImgdiv}>
-                <img className={sImg} src={"public/static/images/gitprofnofac.jpeg"} alt="portfolio image" />
+                <img className={sImg} src={"./static/images/gitprofnofac.jpeg"} alt="portfolio image" />
             </div>
             <p className={sIntro}>Hello, I am Raul!</p>
             <div className={sText}>

@@ -71,15 +71,15 @@ function Header(props){
                     <span className={sIconText}>Mail</span>
                 </a>
                 <a className={sIconLink} href="https://github.com/">
-                    <img className={sIcon} src={'public/github.png'} alt="Icon Github" /> 
+                    <img className={sIcon} src={'./static/images/github.png'} alt="Icon Github" /> 
                     <span className={sIconText}>GitHub</span>
                 </a>
                 <a className={sIconLink} href="https://linkedin.com/">
-                    <img className={sIcon} src={'public/linkedin.png'} alt="Icon linkedIN" />
+                    <img className={sIcon} src={'./static/images/linkedin.png'} alt="Icon linkedIN" />
                     <span className={sIconText}>LinkedIn</span>
                 </a>
                 <a className={sIconLink} href="https://dribbble.com/">
-                <img className={sIcon} src={"public/dribbble.png"} alt="Icon Dribble" />
+                <img className={sIcon} src={"./static/images/dribbble.png"} alt="Icon Dribble" />
                     <span className={sIconText}>dribbble</span>
                 </a>
             </div>
