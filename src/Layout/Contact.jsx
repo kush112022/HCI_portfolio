@@ -1,5 +1,5 @@
 import { useState } from "react"
-import SubmitAlert from "../components/submitAlert"
+import FormAlert from "../components/FormAlert.jsx"
 
 const sContainer = `
     w-full h-screen
@@ -139,7 +139,7 @@ function Contact(props) {
 
     return(
         <div className={sContainer} id='contact' ref={props.contactRef}>
-            <SubmitAlert name={formData.name} success={alert} closeAlert={closeAlert}></SubmitAlert>
+            <FormAlert name={formData.name} success={alert} closeAlert={closeAlert}></FormAlert>
             <form className={sForm} onSubmit={handleSubmit}>
                 <h1 className={sHeader}>Contact me</h1>
 
