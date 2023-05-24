@@ -1,8 +1,8 @@
 const sContainer = `
-    w-screen
+    w-full
     flex flex-row justify-around items-center
-    absolute top-0  
-    z-20
+    sticky top-0  
+    z-50
     h-12
     bg-zinc-950
 `
@@ -55,7 +55,6 @@ function Header(props){
     const landingRef = props.landingRef
     const projectRef = props.projectRef
     const contactRef = props.contactRef
-
 
     function scrollToRef(ref){
         ref.current.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});

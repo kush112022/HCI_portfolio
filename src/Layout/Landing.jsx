@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react"
 
 const sContainer = `
+    w-full h-screen
     select-none 
     flex flex-col justify-center items-center
     bg-slate-500
-    w-full h-screen
-    snap-start
     rounded-b-3xl
+    snap-start
 ` 
-const sImgdiv = `
+const sImgContainer = `
     h-52 w-52
     scale
     overflow-hidden
@@ -77,7 +77,7 @@ function Landing(props) {
 
     return(
         <div className={sContainer} id='landing' ref={props.landingRef}>
-            <div className={sImgdiv}>
+            <div className={sImgContainer}>
                 <img className={sImg} src={"./static/images/gitprofnofac.jpeg"} alt="portfolio image" />
             </div>
             <p className={sIntro}>Hello, I am Raul!</p>

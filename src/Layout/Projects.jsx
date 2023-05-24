@@ -2,12 +2,10 @@ import Box from '../components/Box.jsx'
 import BoxData from '../data/boxData.js'
 
 const sContainer = `
-    flex
-    flex-col
+    flex flex-col
+    w-full h-screen
     items-center
     p-10
-    w-screen
-    h-screen
     rounded-b-2xl
 `
 

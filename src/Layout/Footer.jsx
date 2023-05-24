@@ -1,7 +1,7 @@
 const sContainer = `
     flex flex-row justify-center items-center
+    w-full h-8
     bg-zinc-950
-    h-8
 `
 
 const sCopyright = `

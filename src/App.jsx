@@ -7,7 +7,7 @@ import Footer from "./Layout/Footer"
 
 const sAppContainer = `
   snap-y
-  h-screen w-screen
+  w-screen h-screen
   overflow-y-scroll
   bg-zinc-950
 `
@@ -17,7 +17,7 @@ function App() {
   let projectRef = useRef(null)
   let contactRef = useRef(null)
   let landingRef = useRef(null)
-  
+
   return (
     <div className={sAppContainer}>
       <Header landingRef={landingRef} projectRef={projectRef} contactRef={contactRef}/>
