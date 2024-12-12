@@ -48,7 +48,7 @@ function Projects(props) {
 
     return(
         <div className={sContainer} id='projects' ref={props.projectRef}>
-            <h2 className={sHeader}>My Projects</h2>
+            <h2 className={sHeader}>My Education</h2>
             <div className={sBoxContainer}>
                 {Boxes}
             </div>

@@ -46,7 +46,7 @@ const toolList = [
     ["React", "text-sky-400 font-thin tracking-wide animate-fade-in-2"],
     ["JavaScript", "text-yellow-400 font-thin tracking-wide animate-fade-in-2"],
     ["Python", "text-lime-400 font-thin tracking-wide animate-fade-in-2"],
-    ["Gin", "text-blue-400 font-thin tracking-wide animate-fade-in-2"],
+    ["HTML", "text-blue-400 font-thin tracking-wide animate-fade-in-2"],
     ["NodeJs", "text-green-500 font-thin tracking-wide animate-fade-in-2"],
     ["Golang", "text-sky-400 font-thin tracking-wide animate-fade-in-2"],
     ["Vue.js", "text-teal-500 font-thin tracking-wide animate-fade-in-2"],
@@ -78,11 +78,11 @@ function Landing(props) {
     return(
         <div className={sContainer} id='landing' ref={props.landingRef}>
             <div className={sImgContainer}>
-                <img className={sImg} src={"./static/images/gitprofnofac.jpeg"} alt="portfolio image" />
+                <img className={sImg} src={"./static/images/gitprofnofac.jpg"} alt="portfolio image" />
             </div>
-            <p className={sIntro}>Hello, I am Raul!</p>
+            <p className={sIntro}>Hello, I am jeremy!</p>
             <div className={sText}>
-                <h2>A full-stack developer using</h2>
+                <h2>A musician and devoloper</h2>
                 <h2>{toolState}</h2>
             </div>
         </div>

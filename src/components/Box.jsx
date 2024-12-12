@@ -63,8 +63,7 @@ function Box(props) {
 Box.defaultProps = {
     img: './assets/box_image_1.jpg',
     title: 'My Project',
-    text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto impedit unde illum eligendi perspiciatis, labore eaque est deserunt expedita temporibus minus doloribus facilis, aliquid animi, quibusdam aspernatur facere dicta atque.',
-    link: 'https://google.com/'
+    text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto impedit unde illum eligendi perspiciatis, labore eaque est deserunt expedita temporibus minus doloribus facilis, aliquid animi, quibusdam aspernatur facere dicta atque.'
 }
 
 export default Box

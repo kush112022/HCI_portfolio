@@ -14,7 +14,7 @@ function Footer() {
     return(
         // TODO: Copyright sign
         <div className={sContainer}>
-            <p className={sCopyright}>Raul N. © 2023</p>
+            <p className={sCopyright}>Jeremy R. © 2024</p>
         </div>
     )
 }

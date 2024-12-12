@@ -63,30 +63,23 @@ function Header(props){
     return(
         <div className={sContainer}>
             <div className={sSocial}>
-                <a className={sIconLink} href="https://gmail.com/">
+                <a className={sIconLink} href="https://jeremyresula119@gmail.com/">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-1 -1 24 24" strokeWidth={2} stroke="currentColor" className={sIcon + " w-7 h-7 invert-0"}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                     </svg>
                     <span className={sIconText}>Mail</span>
                 </a>
-                <a className={sIconLink} href="https://github.com/">
+                <a className={sIconLink} href="https://github.com/kush112022">
                     <img className={sIcon} src={'./static/images/github.png'} alt="Icon Github" /> 
                     <span className={sIconText}>GitHub</span>
-                </a>
-                <a className={sIconLink} href="https://linkedin.com/">
-                    <img className={sIcon} src={'./static/images/linkedin.png'} alt="Icon linkedIN" />
-                    <span className={sIconText}>LinkedIn</span>
-                </a>
-                <a className={sIconLink} href="https://dribbble.com/">
-                <img className={sIcon} src={"./static/images/dribbble.png"} alt="Icon Dribble" />
-                    <span className={sIconText}>dribbble</span>
                 </a>
             </div>
 
             <nav className={sNav}>
                 <a className={sNavLink + " hover:opacity-40"} onClick={()=> scrollToRef(landingRef)}>Start</a>
-                <a className={sNavLink + " hover:opacity-40"} onClick={()=> scrollToRef(projectRef)}>Projects</a>
+                <a className={sNavLink + " hover:opacity-40"} onClick={()=> scrollToRef(projectRef)}>Education</a>
                 <a className={sNavLink + " hover:text-lime-400"} onClick={()=> scrollToRef(contactRef)}>Contact Me</a>
+                <a className={sNavLink + " hover:text-lime-400"} href="./static/images/Name.pdf" download>Resume</a>
             </nav>
         </div>
     )
